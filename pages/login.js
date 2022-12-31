@@ -2,12 +2,12 @@ import { useEffect } from 'react';
 import { useUser } from '../context/user';
 
 const Login = () => {
-    const { login } = useUser();
+  const { login } = useUser();
 
-    useEffect(() => {
-        login();
-    }, []);
-    return <p>Logging in</p>;
-}
+  useEffect(() => {
+    login();
+  }, []);
+  return <p>Logging in</p>;
+};
 
-export default Login
+export default Login;

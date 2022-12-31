@@ -1,5 +1,3 @@
-const Success = () => {
-    return <p>Payment successful.</p>
-};
+const Success = () => <p>Payment successful.</p>;
 
 export default Success;
